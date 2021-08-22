@@ -1,0 +1,12 @@
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #8000ff url("../assets/images/bg.jpg");
+  background-size: cover;
+  //   font-family: "Poppins";
+}
