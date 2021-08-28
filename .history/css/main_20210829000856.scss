@@ -165,14 +165,9 @@ h2 {
       text-decoration: none;
       background: #085b95;
       margin-top: 1em;
-      display: inline-block;
+      // display: inline-block;
       color: white;
       font-weight: bold;
-    }
-
-    .pay-once {
-      background: scale-color(#085b95, $lightness: 70%);
-      color: scale-color(#085b95, $lightness: -30%);
     }
   }
 }

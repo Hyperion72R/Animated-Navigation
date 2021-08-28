@@ -171,8 +171,8 @@ h2 {
     }
 
     .pay-once {
-      background: scale-color(#085b95, $lightness: 70%);
-      color: scale-color(#085b95, $lightness: -30%);
+      background: scale-color(#085b95, $lightness: 30%);
+      color: scale-color(#085b95, $blackness: 30%);
     }
   }
 }
