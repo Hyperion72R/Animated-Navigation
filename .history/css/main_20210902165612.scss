@@ -176,30 +176,3 @@ h2 {
     }
   }
 }
-
-.middle {
-  padding-top: 10em;
-
-  a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    padding: 0.4em 0;
-    display: block;
-  }
-
-  .secondary a:hover {
-    color: #2176c5;
-  }
-
-  .social-nav {
-    margin-top: 3em;
-    display: flex;
-    // gap: 0.17em;
-    gap: 0.3em;
-  }
-
-  a:hover svg path {
-    fill: #2176c5;
-  }
-}

@@ -188,7 +188,8 @@ h2 {
     display: block;
   }
 
-  .secondary a:hover {
+  .secondary a:hover,
+  a:hover svg path {
     color: #2176c5;
   }
 
@@ -197,9 +198,5 @@ h2 {
     display: flex;
     // gap: 0.17em;
     gap: 0.3em;
-  }
-
-  a:hover svg path {
-    fill: #2176c5;
   }
 }

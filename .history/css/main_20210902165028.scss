@@ -143,7 +143,7 @@ h2 {
 
   .card {
     padding: 2em;
-    box-shadow: 15px 15px 53px rgba(33, 118, 197, 0.14);
+    box-shadow: 15px 15px 53px rgba(0, 38, 255, 0.11);
     border-radius: 1em;
     // margin-right: 2em;
 
@@ -163,7 +163,7 @@ h2 {
       padding: 0.5em 1em;
       border-radius: 0.3em;
       text-decoration: none;
-      background: #2176c5;
+      background: #085b95;
       margin-top: 1em;
       display: inline-block;
       color: white;
@@ -171,35 +171,8 @@ h2 {
     }
 
     .pay-once {
-      background: scale-color(#2176c5, $lightness: 70%);
-      color: scale-color(#2176c5, $lightness: -30%);
+      background: scale-color(#085b95, $lightness: 70%);
+      color: scale-color(#085b95, $lightness: -30%);
     }
-  }
-}
-
-.middle {
-  padding-top: 10em;
-
-  a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    padding: 0.4em 0;
-    display: block;
-  }
-
-  .secondary a:hover {
-    color: #2176c5;
-  }
-
-  .social-nav {
-    margin-top: 3em;
-    display: flex;
-    // gap: 0.17em;
-    gap: 0.3em;
-  }
-
-  a:hover svg path {
-    fill: #2176c5;
   }
 }
