@@ -6,6 +6,11 @@
           box-sizing: border-box;
 }
 
+.d {
+  z-index: -1;
+  color: red !important;
+}
+
 body::after {
   content: "";
   display: block;
@@ -83,6 +88,9 @@ header nav ul li.active a {
   color: black;
   margin-left: 2em;
   padding: 2.5em;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
 }
 
 h1 {
@@ -104,6 +112,10 @@ h1 {
   display: grid;
   -ms-grid-columns: 75% auto 6em;
       grid-template-columns: 75% auto 6em;
+  opacity: 0;
+  -webkit-transform: translateX(10%) scale(0.9);
+          transform: translateX(10%) scale(0.9);
+  z-index: 2;
 }
 
 .left,
@@ -196,5 +208,21 @@ h2 {
 
 .middle a:hover svg path {
   fill: #2176c5;
+}
+
+.right {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  background-color: #2176c5;
+}
+
+.exit {
+  margin-top: 1.2em;
+  cursor: pointer;
+}
+
+.right svg path {
+  fill: white;
 }
 /*# sourceMappingURL=main.css.map */

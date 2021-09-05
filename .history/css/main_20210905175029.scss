@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.d {
-  z-index: -1;
-  color: red !important;
-}
-
 body::after {
   content: "";
   display: block;

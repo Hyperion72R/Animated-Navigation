@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.d {
-  z-index: -1;
-  color: red !important;
-}
-
 body::after {
   content: "";
   display: block;
@@ -93,9 +88,6 @@ header {
       color: black;
       margin-left: 2em;
       padding: 2.5em;
-      // z-index: 2;
-      position: sticky;
-      z-index: 10;
     }
   }
 }
@@ -121,9 +113,6 @@ h1 {
   width: 100%;
   display: grid;
   grid-template-columns: 75% auto 6em;
-  opacity: 0;
-  transform: translateX(10%) scale(0.9);
-  z-index: 2;
 }
 
 .left,
@@ -216,16 +205,6 @@ h2 {
 }
 
 .right {
-  display: grid;
-  justify-items: center;
-  background-color: #2176c5;
-}
-
-.exit {
-  margin-top: 1.2em;
-  cursor: pointer;
-}
-
-.right svg path {
-  fill: white;
+  // display: grid;
+  // justify-items: center;
 }

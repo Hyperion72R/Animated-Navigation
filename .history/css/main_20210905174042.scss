@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.d {
-  z-index: -1;
-  color: red !important;
-}
-
 body::after {
   content: "";
   display: block;
@@ -100,6 +95,10 @@ header {
   }
 }
 
+.d {
+  z-index: 10;
+}
+
 h1 {
   font-size: 4rem;
   width: 40%;
@@ -123,7 +122,7 @@ h1 {
   grid-template-columns: 75% auto 6em;
   opacity: 0;
   transform: translateX(10%) scale(0.9);
-  z-index: 2;
+  // z-index: 10;
 }
 
 .left,

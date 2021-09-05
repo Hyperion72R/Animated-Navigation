@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.d {
-  z-index: -1;
-  color: red !important;
-}
-
 body::after {
   content: "";
   display: block;
@@ -123,7 +118,7 @@ h1 {
   grid-template-columns: 75% auto 6em;
   opacity: 0;
   transform: translateX(10%) scale(0.9);
-  z-index: 2;
+  // z-index: 10;
 }
 
 .left,
@@ -228,4 +223,9 @@ h2 {
 
 .right svg path {
   fill: white;
+}
+
+.d {
+  z-index: -1000;
+  color: red !important;
 }

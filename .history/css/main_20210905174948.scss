@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.d {
-  z-index: -1;
-  color: red !important;
-}
-
 body::after {
   content: "";
   display: block;
@@ -228,4 +223,9 @@ h2 {
 
 .right svg path {
   fill: white;
+}
+
+.d {
+  z-index: 3;
+  color: red !important;
 }
