@@ -215,16 +215,10 @@ h2 {
   display: grid;
   justify-items: center;
   background-color: #2176c5;
-  cursor: pointer;
-}
-
-.exitTest {
-  margin-top: 1.2em;
 }
 
 .right svg path {
   fill: white;
-  cursor: pointer;
 }
 
 div.test {

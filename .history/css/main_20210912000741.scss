@@ -11,6 +11,13 @@
   color: red !important;
 }
 
+div.test {
+  height: 27px;
+  // margin-top: 15px;
+  margin-top: 1.12em;
+  cursor: pointer !important;
+}
+
 body::after {
   content: "";
   display: block;
@@ -219,22 +226,14 @@ h2 {
   display: grid;
   justify-items: center;
   background-color: #2176c5;
-  cursor: pointer;
 }
 
 .exitTest {
-  margin-top: 1.2em;
-  // cursor: auto;
+  // margin-top: 1.2em;
+  cursor: auto;
 }
 
 .right svg path {
   fill: white;
-  cursor: pointer;
-}
-
-div.test {
-  height: 27px;
-  // margin-top: 15px;
-  margin-top: 1.12em;
-  cursor: pointer;
+  // cursor: pointer;
 }

@@ -219,12 +219,11 @@ h2 {
   display: grid;
   justify-items: center;
   background-color: #2176c5;
-  cursor: pointer;
 }
 
 .exitTest {
   margin-top: 1.2em;
-  // cursor: auto;
+  // cursor: pointer;
 }
 
 .right svg path {
@@ -232,9 +231,6 @@ h2 {
   cursor: pointer;
 }
 
-div.test {
-  height: 27px;
-  // margin-top: 15px;
-  margin-top: 1.12em;
-  cursor: pointer;
+.test {
+  height: 100px;
 }

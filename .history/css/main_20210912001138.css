@@ -3,7 +3,7 @@
 *:before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .d {
@@ -52,11 +52,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header a {
@@ -111,10 +111,10 @@ h1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 75% auto 6em;
-      grid-template-columns: 75% auto 6em;
+  grid-template-columns: 75% auto 6em;
   opacity: 0;
   -webkit-transform: translateX(10%) scale(0.9);
-          transform: translateX(10%) scale(0.9);
+  transform: translateX(10%) scale(0.9);
   z-index: 2;
 }
 
@@ -150,7 +150,7 @@ h2 {
 .cards .card {
   padding: 2em;
   -webkit-box-shadow: 15px 15px 53px rgba(33, 118, 197, 0.14);
-          box-shadow: 15px 15px 53px rgba(33, 118, 197, 0.14);
+  box-shadow: 15px 15px 53px rgba(33, 118, 197, 0.14);
   border-radius: 1em;
 }
 
@@ -215,21 +215,16 @@ h2 {
   display: grid;
   justify-items: center;
   background-color: #2176c5;
-  cursor: pointer;
-}
-
-.exitTest {
-  margin-top: 1.2em;
 }
 
 .right svg path {
   fill: white;
-  cursor: pointer;
 }
 
 div.test {
   height: 27px;
   margin-top: 1.12em;
   cursor: pointer;
+  width: 27px;
 }
 /*# sourceMappingURL=main.css.map */
