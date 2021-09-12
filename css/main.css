@@ -8,7 +8,6 @@
 
 .d {
   z-index: -1;
-  color: red !important;
 }
 
 body::after {
@@ -215,11 +214,11 @@ h2 {
   display: grid;
   justify-items: center;
   background-color: #2176c5;
-  cursor: pointer;
 }
 
 .exitTest {
   margin-top: 1.2em;
+  cursor: pointer;
 }
 
 .right svg path {

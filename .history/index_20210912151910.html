@@ -87,16 +87,15 @@
         </div>
       </div>
 
-      <div class="right" >
+      <div class="right" onclick="ov2()">
         <!-- <div class="test" onclick="ov2()"></div> -->
         <svg
-          onclick="ov2()"
+        
           class="exitTest"
           xmlns="http://www.w3.org/2000/svg"
-          transform="translate(-16, 0)"
-          height="25"
-          width="25"
-          
+          height="58"
+          width="58"
+          viewBox="0 0 58 58"
         >
           <path
             class="exit"
@@ -116,18 +115,16 @@
 
     <script>
       let open = document.querySelector(".active");
-      let close = document.querySelector(".exitTest");
+      let close = document.querySelector(".right");
 
       let tl = gsap.timeline();
 
-      // without z-index we add pointerEvents: 'auto'
-
-      tl.to(".overlay", { opacity: 1, x:0 , scale:1,  duration: 0.3 });
+      tl.to(".overlay", { opacity: 1, x:0 , scale:1, pointerEvents: 'auto', duration: 0.3 });
 
       tl.pause();
 
       open.addEventListener("click", () => {
-        tl.play(); 
+        tl.play();
       });
 
       close.addEventListener("click", () => {

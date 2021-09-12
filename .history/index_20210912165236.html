@@ -87,16 +87,16 @@
         </div>
       </div>
 
-      <div class="right" >
+      <div class="right" onclick="ov2()">
         <!-- <div class="test" onclick="ov2()"></div> -->
         <svg
-          onclick="ov2()"
+        
           class="exitTest"
           xmlns="http://www.w3.org/2000/svg"
-          transform="translate(-16, 0)"
-          height="25"
-          width="25"
-          
+
+          height="100"
+          width="100"
+          viewBox="0 0 100 100"
         >
           <path
             class="exit"
@@ -116,7 +116,7 @@
 
     <script>
       let open = document.querySelector(".active");
-      let close = document.querySelector(".exitTest");
+      let close = document.querySelector(".right");
 
       let tl = gsap.timeline();
 

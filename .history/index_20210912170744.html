@@ -87,13 +87,13 @@
         </div>
       </div>
 
-      <div class="right" >
+      <div class="right" onclick="ov2()">
         <!-- <div class="test" onclick="ov2()"></div> -->
         <svg
-          onclick="ov2()"
+        
           class="exitTest"
           xmlns="http://www.w3.org/2000/svg"
-          transform="translate(-16, 0)"
+          transform: translate(-30px, 0px);
           height="25"
           width="25"
           
@@ -116,7 +116,7 @@
 
     <script>
       let open = document.querySelector(".active");
-      let close = document.querySelector(".exitTest");
+      let close = document.querySelector(".right");
 
       let tl = gsap.timeline();
 
