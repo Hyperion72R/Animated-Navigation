@@ -128,8 +128,6 @@
         duration: 0.3,
       });
 
-      tl.to(".stagger", { x: 0, opacity: 1, stagger: 0.2 }, "-=.3");
-
       tl.pause();
 
       open.addEventListener("click", () => {
@@ -146,9 +144,7 @@
 
       function ov2() {
         let svgC = document.querySelector(".active");
-        setTimeout(function () {
-          svgC.classList.toggle("d");
-        }, 900);
+        svgC.classList.toggle("d");
       }
     </script>
   </body>

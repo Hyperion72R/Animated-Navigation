@@ -121,6 +121,9 @@ h1 {
 .right,
 .middle {
   height: 100vh;
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+  opacity: 0;
 }
 
 h2 {

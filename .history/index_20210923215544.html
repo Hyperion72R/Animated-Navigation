@@ -120,15 +120,9 @@
 
       // without z-index we add pointerEvents: 'auto'
 
-      tl.to(".overlay", {
-        opacity: 1,
-        x: 0,
-        scale: 1,
-        pointerEvents: "auto",
-        duration: 0.3,
-      });
+      tl.to(".overlay", { opacity: 1, x: 0, scale: 1, duration: 0.3 });
 
-      tl.to(".stagger", { x: 0, opacity: 1, stagger: 0.2 }, "-=.3");
+      t2.to("stagger", { x: 0, opacity: 1, stagger: 0.2 }, "-=.6");
 
       tl.pause();
 
@@ -146,9 +140,7 @@
 
       function ov2() {
         let svgC = document.querySelector(".active");
-        setTimeout(function () {
-          svgC.classList.toggle("d");
-        }, 900);
+        svgC.classList.toggle("d");
       }
     </script>
   </body>

@@ -25,7 +25,7 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -10;
+  // z-index: -10;
 }
 
 body {
@@ -130,8 +130,8 @@ h1 {
 .right,
 .middle {
   height: 100vh;
-  transform: translateX(10%);
-  opacity: 0;
+  // transform: translateX(10%);
+  // opacity: 0;
 }
 
 h2 {
